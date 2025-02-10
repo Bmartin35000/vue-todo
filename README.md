@@ -18,3 +18,10 @@ https://openclassrooms.com/fr/courses/6390311-creez-une-interface-web-progressiv
 
 https://getbootstrap.com/docs/5.3/components/
 https://icons.getbootstrap.com/
+
+# Docker
+docker build -t bamartin35/vue-todo:1.0 .
+
+docker run -p 8081:8080 bamartin35/vue-todo:1.0
+
+http://localhost:8081/
